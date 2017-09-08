@@ -1,0 +1,38 @@
+[{
+    "storrelse": "Længde",
+    "prefix": ["n", "µ", "m", "k"],
+    "prefix_lang": ["Nano", "Mikro", "Milli", "Kilo"], 
+    "si": "meter",
+    "fork": "m"
+}, {
+    "storrelse": "Effekt",
+    "prefix": ["m", "k", "M", "G"],
+    "prefix_lang": ["Milli", "Kilo", "Mega", "Giga"],
+    "si": "Watt",
+    "fork": "W"
+}, {
+    "storrelse": "Energi",
+    "prefix": ["k", "M", "G"],
+    "prefix_lang": ["Kilo", "Mega", "Giga"],
+    "si": "Joule",
+    "fork": "J"
+
+}, {
+    "storrelse": "Frekvens",
+    "prefix": ["k", "M", "G"],
+    "prefix_lang": ["Kilo", "Mega", "Giga"],
+    "si": "Hz",
+    "fork": "Hz"
+}, {
+    "storrelse": "Temperatur",
+    "prefix": ["µ", "m"],
+    "prefix_lang": ["Mikro", "Milli"],
+    "si": "Kelvin",
+    "fork": "K"
+}, {
+    "storrelse": "Tid",
+    "prefix": ["n", "µ", "m"],
+    "prefix_lang": ["Nano", "Mikro", "Milli"],
+    "si": "sekunder",
+    "fork": "s"
+}]

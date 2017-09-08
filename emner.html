@@ -1,0 +1,51 @@
+<!doctype html>
+<html xmlns=http://www.w3.org/1999/xhtml lang=en>
+
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Præfiks og eksponentiel notation</title>
+       <meta name="author" content="ato" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../library/css/styles.css" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../library/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="jackpot.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Præfiks og eksponentiel notation</h1>
+        <div id="instruction"></div>
+        <div id="explanation"></div>
+        <div class="row"></div>
+        <div class="col-xs-12 select_container">Hej</div>
+        <div class="row"></div>
+        <div class="jp_container col-md-8 col-sm-12"></div>
+        <div class=" col-md-4 hidden-sm"></div>
+        <div class="row"></div>
+        <div class="btn btn-lg btn-primary btn-tjek">TJEK SVAR</div>
+        <div class="btn btn-lg btn-primary btn-next">NÆSTE</div>
+        <!-- <span class="scorecontainer"><span class="scoreText">Korrekte svar: 0</span></span> --> 
+        <span class="scorecontainer"></span>
+        <div class="scrollinfo"></div>
+        <div class="scoreinfo"></div>
+    </div>
+    <script src="../library/vendor_scripts.js">
+    </script>
+    <script src="../library/custom_scripts.js">
+    </script>
+    <script type="text/javascript ">
+    $(document).ready(function() {
+        getAjaxData("GET", "json/jackpot.json", false, "json");
+        one_line_footer();
+
+    });
+    </script>
+    <script src="jackpot.js">
+    </script>
+</body>
+
+</html>
