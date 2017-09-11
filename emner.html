@@ -4,48 +4,50 @@
 <head>
     <meta name="robots" content="noindex, nofollow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Præfiks og eksponentiel notation</title>
-       <meta name="author" content="ato" />
-
+    <title>Vælg et emne til din SSO</title>
+    <meta name="author" content="ato" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../library/css/styles.css" type="text/css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../library/css/styles.css" type="text/css">
-    <link rel="stylesheet" href="jackpot.css" type="text/css">
+    <link rel="stylesheet" href="emner.css" type="text/css">
 </head>
 
 <body>
     <div class="container-fluid">
-        <h1>Præfiks og eksponentiel notation</h1>
-        <div id="instruction"></div>
-        <div id="explanation"></div>
-        <div class="row"></div>
-        <div class="col-xs-12 select_container">Hej</div>
-        <div class="row"></div>
-        <div class="jp_container col-md-8 col-sm-12"></div>
-        <div class=" col-md-4 hidden-sm"></div>
-        <div class="row"></div>
-        <div class="btn btn-lg btn-primary btn-tjek">TJEK SVAR</div>
-        <div class="btn btn-lg btn-primary btn-next">NÆSTE</div>
-        <!-- <span class="scorecontainer"><span class="scoreText">Korrekte svar: 0</span></span> --> 
-        <span class="scorecontainer"></span>
-        <div class="scrollinfo"></div>
-        <div class="scoreinfo"></div>
-    </div>
-    <script src="../library/vendor_scripts.js">
-    </script>
-    <script src="../library/custom_scripts.js">
-    </script>
-    <script type="text/javascript ">
-    $(document).ready(function() {
-        getAjaxData("GET", "json/jackpot.json", false, "json");
-        one_line_footer();
+        <div class="col-xs-12 instruction_container">
+            <h1>Vælg et emne til din SSO</h1>
+            <div id="instruction"></div>
+            <div id="explanation"></div>
+        </div>
+        <div class="main_container col-xs-8">
+            <h3 class="fag_header">Fag</h3>
+            <div class="fag_container"></div>
+            <h3 class="o_emne_header">Overordnet emne </h3>
+            <div class="emne_container"></div>
+            <h3 class="u_emne_header">Underemne </h3>
+            <div class="u_emne_container"></div>
+            <h3 class="sso_emne_header">SSO emne </h3>
+            <div class="sso_emne_container"></div>
 
-    });
-    </script>
-    <script src="jackpot.js">
-    </script>
+        </div>
+        <div class="visualisation_container col-xs-4"
+    </div>
+</body>
+<script src="../library/vendor_scripts.js">
+</script>
+<script src="../library/custom_scripts.js">
+</script>
+<script type="text/javascript ">
+$(document).ready(function() {
+    getAjaxData("GET", "json/emner.json", false, "json");
+    one_line_footer();
+
+});
+</script>
+<script src="emner.js">
+</script>
 </body>
 
 </html>

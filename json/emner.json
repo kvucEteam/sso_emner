@@ -1,38 +1,51 @@
-[{
-    "storrelse": "Længde",
-    "prefix": ["n", "µ", "m", "k"],
-    "prefix_lang": ["Nano", "Mikro", "Milli", "Kilo"], 
-    "si": "meter",
-    "fork": "m"
-}, {
-    "storrelse": "Effekt",
-    "prefix": ["m", "k", "M", "G"],
-    "prefix_lang": ["Milli", "Kilo", "Mega", "Giga"],
-    "si": "Watt",
-    "fork": "W"
-}, {
-    "storrelse": "Energi",
-    "prefix": ["k", "M", "G"],
-    "prefix_lang": ["Kilo", "Mega", "Giga"],
-    "si": "Joule",
-    "fork": "J"
+{
+    "fag": [
 
-}, {
-    "storrelse": "Frekvens",
-    "prefix": ["k", "M", "G"],
-    "prefix_lang": ["Kilo", "Mega", "Giga"],
-    "si": "Hz",
-    "fork": "Hz"
-}, {
-    "storrelse": "Temperatur",
-    "prefix": ["µ", "m"],
-    "prefix_lang": ["Mikro", "Milli"],
-    "si": "Kelvin",
-    "fork": "K"
-}, {
-    "storrelse": "Tid",
-    "prefix": ["n", "µ", "m"],
-    "prefix_lang": ["Nano", "Mikro", "Milli"],
-    "si": "sekunder",
-    "fork": "s"
-}]
+        {
+            "id": "Historie",
+            "emner": ["USA",
+                "Det 20. århundrede"
+            ],
+            "underemner": [
+                ["Amerikansk udenrigspolitik", "Den Amerikanske Drøm", "Sortes rettigheder"],
+                ["Mellemkrigstiden", "2.verdenskrig", "Den kolde krig", "Ungdomsoprøret"]
+            ],
+            "sso_emner": [
+                [
+                    ["USA's reaktion på 9/11", "Vietnamkrigen efter 1963", "Cubakrisen 1962"],
+                    ["Løsrivelsen fra England", "Migrationen i 1800-tallet"],
+                    ["Borgerrettighedsbevægelsen i 1950'erne", "Borgerkrigen og slaverne"]
+                ],
+                [
+                    ["Hitlers vej til magten i Tyskland", "Kanslergadeforliget, 1933"],
+                    ["Slaget om Stalingrad", "Den danske samarbejdspolitik, 1940-1943"],
+                    ["Relationen mellem USA og USSR, 1945-1947", "Danmarks indtræden i NATO"],
+                    ["Rødstrømpebevægelsen i Danmark"]
+                ]
+            ]
+        }, {
+            "id": "Dansk",
+            "emner": ["Moderne gennembrud",
+                "Digte"
+            ],
+            "underemner": [
+                ["Amerikansk udenrigspolitik", "Den Amerikanske Drøm", "Sortes rettigheder"],
+                ["Mellemkrigstiden", "2.verdenskrig", "Den kolde krig", "Ungdomsoprøret"]
+            ],
+            "sso_emner": [
+                [
+                    ["USA's reaktion på 9/11", "Vietnamkrigen efter 1963", "Cubakrisen 1962"],
+                    ["Løsrivelsen fra England", "Migrationen i 1800-tallet"],
+                    ["Borgerrettighedsbevægelsen i 1950'erne", "Borgerkrigen og slaverne"]
+                ],
+                [
+                    ["Hitlers vej til magten i Tyskland", "Kanslergadeforliget 1933"],
+                    ["Slaget om Stalingrad", "Den danske samarbejdspolitik 1940-1943"],
+                    ["Relationen mellem USA og USSR 1945-1947", "Danmarks indtræden i NATO"],
+                    ["Rødstrømpebevægelsen i Danmark"]
+                ]
+            ]
+        }
+
+    ]
+}
