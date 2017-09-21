@@ -25,24 +25,59 @@
             ]
         }, {
             "id": "Dansk",
-            "emner": ["Moderne gennembrud",
-                "Digte"
+            "emner": [
+                "Litteratur",
+                "Medier",
+                "Sprog"
             ],
             "underemner": [
-                ["Amerikansk udenrigspolitik", "Den Amerikanske Drøm", "Sortes rettigheder"],
-                ["Mellemkrigstiden", "2.verdenskrig", "Den kolde krig", "Ungdomsoprøret"]
+                ["Det moderne gennembrud", "De nye ghettostemmer i dansk littertur", "Genrer"],
+                ["Sociale medier", "Nyhedsmediet"],
+                ["Retorik", "Unges sprogbrug"]
             ],
             "sso_emner": [
                 [
-                    ["USA's reaktion på 9/11", "Vietnamkrigen efter 1963", "Cubakrisen 1962"],
-                    ["Løsrivelsen fra England", "Migrationen i 1800-tallet"],
-                    ["Borgerrettighedsbevægelsen i 1950'erne", "Borgerkrigen og slaverne"]
+                    ["Analyse af Goerg Brandes - Hovedstrømninger", "Herman Bang - Håbløse slægter"],
+                    ["Yahya Hassan", "Morten Pape"],
+                    ["Kunst vs Folkeeventyr"]
                 ],
                 [
-                    ["Hitlers vej til magten i Tyskland", "Kanslergadeforliget 1933"],
-                    ["Slaget om Stalingrad", "Den danske samarbejdspolitik 1940-1943"],
-                    ["Relationen mellem USA og USSR 1945-1947", "Danmarks indtræden i NATO"],
-                    ["Rødstrømpebevægelsen i Danmark"]
+                    ["Facebook litteratur jf Karen Wagners nye bog", "Selvfremtilling på Instagram - 2 eksempler"],
+                    ["Analyse af nyhedsdækningen af en given nyhed", "Nyhedsdækning på TV2: analyse af en udvalgt nyhedsudsendelse (lokal-tv eller landsdækkende"]
+                ],
+                [
+                    ["Analyse af politiske taler - Barack Obama", "Analyse af debat om hvorvidt Karen Blixen var racist (analyse af debatartikler om sagen)", "Argumentationsanalyse af avisdebat om et givet emne"],
+                    ["Analyse af nyhedsdækningen af en given nyhed", "Nyhedsdækning på TV2: analyse af en udvalgt nyhedsudsendelse (lokal-tv eller landsdækkende"]
+                ]
+            ]
+        },
+        {
+            "id": "Samfundsfag",
+            "emner": [
+                "Økonomi",
+                "Politik",
+                "Sociologi"
+            ],
+            "underemner": [
+                ["Velfærdsstaten", "Finanskrisens årsag og betydning", "Ulighed"],
+                ["Dansk politik","Amerikansk politik", "Magt"],
+                ["Identitetsdannelse","Iværksætteri som livsform","Social arv og social mobilitet"]
+            ],
+            "sso_emner": [
+                [
+                    ["Hvad kan man gøre ved den såkaldte ældrebyrde?","En sammenligning af fordele og ulemper med den amerikanske residuale model i forhold til den danske universelle model", "Hvilken indflydelse har EU’s politik på den danske velfærdsstat?", "Hvilke fordele og ulemper er der ved at gøre den danske velfærdsstat til en konkurrencestat?"],
+                    ["Yahya Hassan", "Morten Pape"],
+                    ["Den amerikanske drøm og social ulighed."]
+                ],
+                [
+                    ["Regeringsgrundlaget 2016", "Magtens Tredeling i Danmark", "Fordele og ulemper ved markedspartier"],
+                    ["Trump: Presidentvalg, årsager til hans valgsejr"], 
+                    ["Hvilken magt har medierne?"]
+                ],
+                [
+                    ["Unges identitetsdannelse og sociale medier"],
+                    ["Martin Thorborg"],
+                    ["At bryde den Sociale Arv i 2017", "Alkoholisme og social arv"]
                 ]
             ]
         }
