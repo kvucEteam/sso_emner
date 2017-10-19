@@ -1,24 +1,35 @@
-
-.bullseye{
-    height: 120px;
-    margin-top: -40px;
-    margin-bottom: 20px;
-}
-
-.valg_container{
+    .bullseye {
+        height: 120px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
     
-    padding: 0px 0px 0px 10px;
-    border-radius: 4px;
-    display: flow-root;
-}
+    .valg_container {
+        border-radius: 4px;
+    }
+    
+    .button_container {
+        margin-left: -10px;
+    }
+    
+    .btn-ssoemne {
+        border: 1px solid #ddd;
+        /* width: 100%; */
+        padding: 4px 4px 4px 10px;
+        border-radius: 4px;
+        /* margin: 10px 10px 20px 0px; */
+    }
 
-.button_container{
-    margin-left: -10px;
-}
+    .btn{
+    	margin-bottom: 10px;
+    }
 
+    .search_container{
 
-/***** TEST SÅ VALSER OG KONSOL KAN SES SAMTIDIG *****/ 
-/*
+    	margin-top: -13px;
+    }
+    /***** TEST SÅ VALSER OG KONSOL KAN SES SAMTIDIG *****/
+    /*
 .number_container {
     height: 80px;
 }

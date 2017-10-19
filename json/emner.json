@@ -2,7 +2,104 @@
     "fag": [
 
         {
+            "id": "Biologi",
+            "databaser": [
+                ["Danmarkshistorien", "sundhed.dk"],
+                ["Danmarkshistorien", "Diabetes.dk"],
+                ["", "Netdoktor.dk"],
+                ["", "geografforlaget.dk"],
+                ["", "baeredygtiglandbrug.dk"],
+                ["", "videnventerfordemens.dk"],
+                ["", "alzheimer.dk"],
+                ["", "sundhedsstyrelsen.dk"],
+                ["", "videnskab.dk"],
+                ["", "biotechacademy.dk"],
+                ["", "ing.dk"],
+                ["", "altomkost.dk"],
+                ["", "foedevarestyrelsen.dk"],
+                ["", "vegetarforening.dk"]
+
+            ],
+            "emner": [
+                "Blodkredsløbet",
+                "Fordøjelsessystemet",
+                "Nervesystemet"
+            ],
+            "underemner": [
+                ["Blodpropper", "Kondition", "Rygning", "Blodtyper"],
+                ["Spiseforstyrrelser", "Diabetes", "Cancer", "Blodpropper"],
+                ["Stofmisbrug", "Alkoholmisbrug", "Stress og depression"]
+
+            ],
+            "sso_emner": [
+                [
+                    ["Kost og motion", "Medicin og operation"],
+                    ["Muskelvæv og kredsløb", "EPO og hæmotokritværdi"],
+                    ["Genetik og DNA"],
+                    ["Evolution"]
+                ],
+                [
+                    ["Belønningscenter", "Fedme"],
+                    ["Blodsukkerregulering"],
+                    ["DNA og mutationer", "Frie radikaler"],
+                    ["Fedtstoffer"]
+
+                ],
+                [
+                    ["Kokain og ecstasy", "Hash"],
+                    ["Signalstoffer", "Antagonister"],
+                    ["Serotonin", "Cortisol"]
+
+                ]
+            ]
+        }, {
+            "id": "Dansk",
+            "databaser": [
+                ["Forfatterweb", "forfatterweb.dk/"],
+                ["Litteratursiden", "www.litteratursiden.dk/"],
+                ["Danmarkshistorien", "www.danmarkshistorien.dk/"]
+            ],
+            "emner": [
+                "Litteratur",
+                "Medie",
+                "Sprog"
+            ],
+            "underemner": [
+                ["Romaner og noveller", "Digte", "Teaterstykker", "Eventyr"],
+                ["Journalistik", "Dokumentarfilm", "Kortfilm", "Spillefilm", "Reklamer", "Sociale medier"],
+                ["Retorik", "Argumentation", "Raptekster", "Diskursanalyse", "Sproghandlinger"]
+            ],
+            "sso_emner": [
+                [
+                    ["Jens Blendstrup, Gud taler ud", "Knud Romer, Den som blinker er bange for døden", "Tomas Espedal, Gå", "Morten Pape, Planen", "Hans Kirk, Fiskerne", "Jan Sonnergaard, Radiator", "Raymond Carver, Hvad vi taler om, når vi taler om kærlighed?", "Charles Bukowski, Alt forefaldne arbejde", "Helle Helle, Rester", "Simon Fruelund, Mælk"],
+                    ["Caspar Eric, Nike", "Asta Olivia Nordenhof, Det nemme og det ensomme", "Mira Gonzales, Jeg vil aldrig blive smuk nok til at gøre os smukke sammen", "Søren Ulrik Thomsen, Farvel til det blå rum", "Søren Ulrik Thomsen, City slang", "Michael Strunge, Livets hastighed"],
+                    ["Henrik Ibsen, Et dukkehjem", "August Strindberg, Frøken Julie", "Adam Oehlenscläger, Alladin"],
+                    ["H.C. Andersen, Fyrtøjet", "Brd. Grimm, Snehvide og Rosenrød"]
+                ],
+                [
+                    ["Nyhedsdækning på TV2", "New Journalism, Morten Sabroe", "Åsna Seiestads, En af os", "Hunter S. Thompson, Frygt og lede i Las Vegas", "Selvfremtilling på Instagram"],
+                    ["Christopher Guldbrandsen, Den hemmelige krig"],
+                    ["Spidse albuer, blødende knæ", "Højdeskræk", "Teenland"],
+                    ["Steven Spielberg, Schindlers liste", "Roberto Begnini, Livet er smukt", "Jason Reitman, Thank you for smoking"],
+                    ["Reklamens historiske udvikling"],
+                    ["Virksomheders branding på facebook", "Politikernes brug af facebook"]
+                ],
+                [
+                    ["Martin Luther King, I have a Dream", "Barack Obama, Yes we can", "Dronningens nytårstaler", "Var Karen Blixen racist?"],
+                    ["Etisk råds kødskat forslag", "Argumentationsanalyse af avisdebat"],
+                    ["Den gale pose, Stodder", "Malk de Kojn, Rocstar"],
+                    ["Beyoncé, If I were a man", "Nik og Jay, Boing", "Taylor Swift, You belong with me"],
+                    ["N.F.S. Grundtvig, Danmarks trøst", "St. St. Blicher, Kjær est du Fødeland", "H.C. Andersen, I Danmark er jeg født"]
+                ]
+            ]
+        }, {
             "id": "Historie",
+            "databaser": [
+                ["His2rie", "his2rie.dk/"],
+                ["Historienet", "www.historienet.dk/"],
+                ["videnskab", "www.videnskab.dk/"],
+                ["Danmarkshistorien", "www.danmarkshistorien.dk/"]
+            ],
             "emner": ["USA",
                 "Det 20. århundrede"
             ],
@@ -12,72 +109,99 @@
             ],
             "sso_emner": [
                 [
-                    ["USA's reaktion på 9/11", "Vietnamkrigen efter 1963", "Cubakrisen 1962"],
-                    ["Løsrivelsen fra England", "Migrationen i 1800-tallet"],
-                    ["Borgerrettighedsbevægelsen i 1950'erne", "Borgerkrigen og slaverne"]
+                    ["Bush doktrinen", "Vietnamkrigen efter 1963", "Cubakrisen 1962"],
+                    ["Uafhægighedskrigen 1776-1783", "Indvandringen til USA i 1800-tallet"],
+                    ["Borgerrettighedsbevægelsen i 1950'erne", "Den amerikanske borgerkrig og slaveriet"]
                 ],
                 [
                     ["Hitlers vej til magten i Tyskland", "Kanslergadeforliget, 1933"],
-                    ["Slaget om Stalingrad", "Den danske samarbejdspolitik, 1940-1943"],
-                    ["Relationen mellem USA og USSR, 1945-1947", "Danmarks indtræden i NATO"],
+                    ["Slaget om Stalingrad", "Samarbejdspolitikken, 1940-1943"],
+                    ["Truman doktrinen", "Dansk udenrigspolitik under den kolde krig"],
                     ["Rødstrømpebevægelsen i Danmark"]
                 ]
             ]
         }, {
-            "id": "Dansk",
+            "id": "Mediefag",
+            "databaser": [
+                ["Danmarkshistorien", "filmcentralen.dk"]
+            ],
             "emner": [
-                "Litteratur",
-                "Medier",
-                "Sprog"
+                "Spillefilm"
+
             ],
             "underemner": [
-                ["Det moderne gennembrud", "De nye ghettostemmer i dansk littertur", "Genrer"],
-                ["Sociale medier", "Nyhedsmediet"],
-                ["Retorik", "Unges sprogbrug"]
+                ["Auteurfilm", "Amerikanske gyserfilm", "Superheltefilm", "Film noir", "Dansk folkekomedie"]
+
             ],
             "sso_emner": [
                 [
-                    ["Analyse af Goerg Brandes - Hovedstrømninger", "Herman Bang - Håbløse slægter"],
-                    ["Yahya Hassan", "Morten Pape"],
-                    ["Kunst vs Folkeeventyr"]
-                ],
-                [
-                    ["Facebook litteratur jf Karen Wagners nye bog", "Selvfremtilling på Instagram - 2 eksempler"],
-                    ["Analyse af nyhedsdækningen af en given nyhed", "Nyhedsdækning på TV2: analyse af en udvalgt nyhedsudsendelse (lokal-tv eller landsdækkende"]
-                ],
-                [
-                    ["Analyse af politiske taler - Barack Obama", "Analyse af debat om hvorvidt Karen Blixen var racist (analyse af debatartikler om sagen)", "Argumentationsanalyse af avisdebat om et givet emne"],
-                    ["Analyse af nyhedsdækningen af en given nyhed", "Nyhedsdækning på TV2: analyse af en udvalgt nyhedsudsendelse (lokal-tv eller landsdækkende"]
+                    ["Quentin Tarantino, Reservoir Dogs", "Martin Scorsese, The departed"],
+                    ["John Carpenter, Halloween", "Wes Craven, Scream"],
+                    ["Joss Whedon, The Avengers"],
+                    ["Jack Brooks, Sherlock Holmes - Dressed to kill","Curtis Hanson, L.A. Confidential"],
+                    ["Morten Korch, Flintesønnerne"]
                 ]
             ]
-        },
-        {
+        }, {
+            "id": "Religion",
+            "databaser": [
+                ["Danmarkshistorien", "filmcentralen.dk"]
+            ],
+            "emner": [
+                "Helligsteder",
+                "Overgangsritualer"
+            ],
+            "underemner": [
+                ["Religiøse rum", "Byer", "Natursteder"],
+                ["Børneritualer", "Initiationsritualer", "Voksenritualer", "Dødsritualer"]
+
+            ],
+            "sso_emner": [
+                [
+                    ["Kirkers arkitektur og funktion", "Synagogers arkitektur og funktion", "Moskeens arkitektur og funktion"],
+                    ["Jerusalem", "Rom", "Mekka", "Pilgrimssteder"],
+                    ["Ganges", "Hellige kilder"]
+                ],
+                [
+                    ["Dåb", "Optagelsesritualer", "Navngivningsceremoni"],
+                    ["Konfimation og bar mitzvah", "Totemdyr", "Førstefangst ritual"],
+                    ["Konversion", "Ægteskab", "Optagelsesritualer for munke og nonner"],
+                    ["Begravelse"]
+
+                ]
+            ]
+        }, {
             "id": "Samfundsfag",
+            "databaser": [
+                ["His2rie", "baggrund.com/"],
+                ["Historienet", "www.cevea.dk/"],
+                ["videnskab", "www.faktalink.dk/"],
+                ["Danmarkshistorien", "www.diis.dk/"]
+            ],
             "emner": [
                 "Økonomi",
                 "Politik",
                 "Sociologi"
             ],
             "underemner": [
-                ["Velfærdsstaten", "Finanskrisens årsag og betydning", "Ulighed"],
-                ["Dansk politik","Amerikansk politik", "Magt"],
-                ["Identitetsdannelse","Iværksætteri som livsform","Social arv og social mobilitet"]
+                ["Velfærdsstaten", "Ulighed"],
+                ["Dansk politik", "Amerikansk politik", "Magt"],
+                ["Identitetsdannelse", "Iværksætteri som livsform", "Social arv og social mobilitet"]
             ],
             "sso_emner": [
                 [
-                    ["Hvad kan man gøre ved den såkaldte ældrebyrde?","En sammenligning af fordele og ulemper med den amerikanske residuale model i forhold til den danske universelle model", "Hvilken indflydelse har EU’s politik på den danske velfærdsstat?", "Hvilke fordele og ulemper er der ved at gøre den danske velfærdsstat til en konkurrencestat?"],
-                    ["Yahya Hassan", "Morten Pape"],
+                    ["Ældrebyrden", "Den amerikanske residuale model", "EU og den danske velfærdsstat", "Velfærdsstat til konkurrencestat"],
                     ["Den amerikanske drøm og social ulighed."]
                 ],
                 [
-                    ["Regeringsgrundlaget 2016", "Magtens Tredeling i Danmark", "Fordele og ulemper ved markedspartier"],
-                    ["Trump: Presidentvalg, årsager til hans valgsejr"], 
-                    ["Hvilken magt har medierne?"]
+                    ["Regeringsgrundlaget 2016", "Magtens Tredeling i Danmark", "Markedspartier"],
+                    ["Donald Trumps valgsejr"],
+                    ["Mediernes magt"]
                 ],
                 [
-                    ["Unges identitetsdannelse og sociale medier"],
+                    ["Identitetsdannelse og sociale medier"],
                     ["Martin Thorborg"],
-                    ["At bryde den Sociale Arv i 2017", "Alkoholisme og social arv"]
+                    ["Den Sociale Arv i 2017", "Alkoholisme og social arv"]
                 ]
             ]
         }
