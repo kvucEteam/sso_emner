@@ -1,40 +1,30 @@
-    .bullseye {
-        height: 120px;
-        margin-top: -40px;
-        margin-bottom: 20px;
-    }
-    
-    .valg_container {
-        border-radius: 4px;
-    }
-    
-    .button_container {
-        margin-left: -10px;
-    }
-    
-    .btn-ssoemne {
-        border: 1px solid #ddd;
-        /* width: 100%; */
-        padding: 4px 4px 4px 10px;
-        border-radius: 4px;
-        /* margin: 10px 10px 20px 0px; */
-    }
-
-    .btn{
-    	margin-bottom: 10px;
-    }
-
-    .search_container{
-
-    	margin-top: -13px;
-    }
-    /***** TEST SÅ VALSER OG KONSOL KAN SES SAMTIDIG *****/
-    /*
-.number_container {
-    height: 80px;
+.btn-ssoemne,
+.valg_container {
+    border-radius: 4px
 }
 
-.number {
-    height: 80px;
+.bullseye {
+    height: 120px;
+    margin-top: -40px;
+    margin-bottom: 20px
 }
-*/
+
+.button_container {
+ 
+}
+
+.btn-ssoemne {
+    border: 1px solid #ddd;
+    padding: 4px 4px 4px 10px;
+    margin: 3px 3px 3px 0px;
+    width: 60%;
+    cursor: pointer;
+}
+
+.btn {
+    margin-bottom: 10px
+}
+
+.search_container {
+    margin-top: -11px;
+}

@@ -13,6 +13,8 @@ $(document).ready(function() {
 
     $(".btn-fag").click(clicked_fag); //
 
+    $('#instruction').html(instruction("Klik på et fag få inspiration til emner til din SSO"));
+    $('#explanation').html(explanation("Hvert fag har overordnede emner, underemner og herunder sso emner. Når du klikker på et sso emner, får du mulighed for at søge på emnet både på bibliotek.dk og en google søgning på udvalget databaser til det pågældende fag."));
 
 
 
@@ -49,11 +51,14 @@ function clicked_fag() {
     //activateClass($(this), indeks);
 
 
-    var HTML = "<div class='col-xs-12 button_container'>";
+    var HTML = "<div class='button_container'>";
 
     for (var i = 0; i < jsonData.fag[indeks].emner.length; i++) {
         HTML += "<button type='button' class='btn btn-default btn-emne'>" + jsonData.fag[indeks].emner[i] + "</button>";
+
     }
+
+
 
     $(".emne_content").html(HTML + "</div><div class='col-xs-4'></div>"); //<img class='img-responsive bullseye' src='img/bullseye1.svg'>");
     $(".emne_content").slideUp(0).slideDown(300);
@@ -68,6 +73,12 @@ function clicked_fag() {
 
     $(".btn-emne").click(clicked_emne); //() {
 
+    $(".btn-emne").each(function() {
+        var indeks = $(this).index();
+
+        $(this).fadeOut(100).delay(indeks * 100).fadeIn(100);
+    })
+
 }
 
 function clicked_emne() {
@@ -81,7 +92,7 @@ function clicked_emne() {
 
     //alert(indeks);
 
-    var HTML = "<div class='col-xs-8 button_container'>";
+    var HTML = "<div class='button_container'>";
 
     for (var i = 0; i < jsonData.fag[valgt_fag].underemner[indeks].length; i++) {
         console.log("i: " + i);
@@ -98,6 +109,12 @@ function clicked_emne() {
     $(".bullseye").eq(0).css("opacity", .6);
     $(".bullseye").eq(1).css("opacity", 1);
     $(".u_emne_content").slideUp(0).slideDown(300);
+
+    $(".btn-underemne").each(function() {
+        var indeks = $(this).index();
+
+        $(this).fadeOut(0).delay(indeks * 100).fadeIn(100);
+    })
 }
 
 function clicked_underemne() {
@@ -117,7 +134,7 @@ function clicked_underemne() {
 
     //alert(indeks);
 
-    var HTML = "<div class='col-xs-12 button_container'>";
+    var HTML = "<div class='button_container'>";
 
     for (var i = 0; i < jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks].length; i++) {
         console.log("i: " + i);
@@ -146,7 +163,11 @@ function clicked_underemne() {
     $(".bullseye").eq(2).css("opacity", 1);
 
     //microhint($(".btn-ssoemne").eq(0), "Når du klikker på et SSO emne åbner en ny fane med din søgning <br/> Du kan også skrive din egen søgning ind i søgefeltet");
+    $(".btn-ssoemne").each(function() {
+        var indeks = $(this).index();
 
+        $(this).fadeOut(0).delay(indeks * 100).fadeIn(100);
+    })
 }
 
 function clicked_ssoemne() {
@@ -157,8 +178,8 @@ function clicked_ssoemne() {
     toggleClasses(".btn-ssoemne", indeks);
 
 
-    $(".btn-bib").eq(indeks).show();
-    $(".btn-google").eq(indeks).show();
+    $(".btn-bib").eq(indeks).fadeIn(200);
+    $(".btn-google").eq(indeks).fadeIn(200);
 
 
 }
@@ -233,6 +254,8 @@ function clicked_bib_search() {
     console.log("indeks: " + indeks);
 
     var searchstring = $(".btn-ssoemne").eq(indeks).html();
+
+    searchstring = searchstring.replace(/\?/g, '')
 
 
     // microhint($(this), "Du bliver nu sendt videre til bibliotek.dk med din søgning: '" + searchstring + "'");
