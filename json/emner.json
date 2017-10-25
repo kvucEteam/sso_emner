@@ -23,7 +23,7 @@
                     "Mekanisk energi, gravitationsfeltet fra et centrallegeme"
                 ],
                 [
-                    "Fotoners energi, atomare systemers emission og absorption af stråling, spektre", 
+                    "Fotoners energi, atomare systemers emission og absorption af stråling", 
                     "Radioaktivitet, henfaldstyper, aktivitet og henfaldsloven"
                 ],
                 [
@@ -40,9 +40,9 @@
                     ["Fysik i regnbuen", "Lysleder"]
                 ],
                 [
-                    ["Kraftpåvirkning af køretøjer i bevægelse"],
+                    ["Kraftpåvirkning af køretøjer i bevægelse", "Roller coaster"],
                     ["Raketter"],
-                    ["Tidevandskafter: Ebbe og flod, Roche grænsen"],
+                    ["Tidevandskæfter: Ebbe og flod", "Tidevandskæfter: Roche grænsen"],
                     ["Meteor- og kometnedslag"]
                 ],
                 [
@@ -50,9 +50,9 @@
                     ["Kulstof 14-datering"]
                 ],
                 [
-                    ["Køleskab og varmepumpe"],
+                    ["Køleskabet", "Varmepumpen"],
                     ["Solen"],
-                    ["Dampmaskinen og forbrændingsmotoren"]
+                    ["Dampmaskinen", "Forbrændingsmotoren"]
                 ],
                 [
                     ["Partikelaccelerator"]
