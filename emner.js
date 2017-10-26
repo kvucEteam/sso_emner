@@ -65,8 +65,10 @@ function clicked_fag() {
     //$(".emne_content").slideUp(0);
     //$(".emne_content").slideDown(500);
 
-    $(".bullseye").css("opacity", 0.3);
-    $(".bullseye").eq(0).css("opacity", 1);
+    $(".bullseye_pic").fadeOut(10, function() {
+        $(".bullseye_pic").attr("src", "img/bullseye2.svg").fadeIn(50);
+    });
+    //$(".bullseye_pic"). 
 
 
 
@@ -78,6 +80,10 @@ function clicked_fag() {
 
         $(this).fadeOut(100).delay(indeks * 100).fadeIn(100);
     })
+
+       $(".bullseye_pic").fadeOut(10, function() {
+        $(".bullseye_pic").attr("src", "img/bullseye1.svg").fadeIn(50);
+    });
 
 }
 
@@ -115,6 +121,11 @@ function clicked_emne() {
 
         $(this).fadeOut(0).delay(indeks * 100).fadeIn(100);
     })
+
+    
+    $(".bullseye_pic").fadeOut(10, function() {
+        $(".bullseye_pic").attr("src", "img/bullseye2.svg").fadeIn(50);
+    });
 }
 
 function clicked_underemne() {
@@ -168,6 +179,9 @@ function clicked_underemne() {
 
         $(this).fadeOut(0).delay(indeks * 100).fadeIn(100);
     })
+       $(".bullseye_pic").fadeOut(10, function() {
+        $(".bullseye_pic").attr("src", "img/bullseye3.svg").fadeIn(50);
+    });
 }
 
 function clicked_ssoemne() {
@@ -180,6 +194,10 @@ function clicked_ssoemne() {
 
     $(".btn-bib").eq(indeks).fadeIn(200);
     $(".btn-google").eq(indeks).fadeIn(200);
+
+   $(".bullseye_pic").fadeOut(10, function() {
+        $(".bullseye_pic").attr("src", "img/bullseye4.svg").fadeIn(50);
+    });
 
 
 }

@@ -28,3 +28,12 @@
 .search_container {
     margin-top: -11px;
 }
+
+.img_container{
+   position: absolute;
+    width: 18%;
+    right: 0px;
+    top: 50px;
+    opacity: 0.8;
+    z-index: -1;
+}
