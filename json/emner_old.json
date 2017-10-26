@@ -1,6 +1,68 @@
 {
     "fag": [
+<<<<<<< HEAD
 
+=======
+        {
+            "id": "Fysik",
+            "databaser": [
+                ["", "videnskab.dk"],
+                ["", "ing.dk"],
+                ["", "da.wikipedia.org"]
+            ],
+            "emner": [
+                "Lys",
+                "Mekanik",
+                "Kvantefysik",
+                "Energi",
+                "Elektriske og magnetiske felter"
+            ],
+            "underemner": [
+                ["Reflektion og brydning"],
+                [   
+                    "Bevægelser i én og to dimensioner og jævn cirkelbevægelse", 
+                    "Kraftbegrebet, Newtons love, tryk, gnidning og luftmodstand", 
+                    "Gravitationsloven og bevægelse om et centrallegeme", 
+                    "Mekanisk energi, gravitationsfeltet fra et centrallegeme"
+                ],
+                [
+                    "Fotoners energi, atomare systemers emission og absorption af stråling", 
+                    "Radioaktivitet, henfaldstyper, aktivitet og henfaldsloven"
+                ],
+                [
+                    ["Indre energi og energiforhold ved temperatur- og faseændringer"],
+                    ["Ækvivalensen mellem masse og energi, Q-værdi ved kernereaktioner"],
+                    ["Arbejde, energi, energiomsætning, effekt og nyttevirkning"]
+                ],
+                [
+                    ["ladede partiklers bevægelse i homogene elektriske og magnetiske felter"]
+                ]
+            ],
+            "sso_emner": [
+                [
+                    ["Fysik i regnbuen", "Lysleder"]
+                ],
+                [
+                    ["Kraftpåvirkning af køretøjer i bevægelse", "Roller coaster"],
+                    ["Raketter"],
+                    ["Tidevandskæfter: Ebbe og flod", "Tidevandskæfter: Roche grænsen"],
+                    ["Meteor- og kometnedslag"]
+                ],
+                [
+                    ["Laseren"],
+                    ["Kulstof 14-datering"]
+                ],
+                [
+                    ["Køleskabet", "Varmepumpen"],
+                    ["Solen"],
+                    ["Dampmaskinen", "Forbrændingsmotoren"]
+                ],
+                [
+                    ["Partikelaccelerator"]
+                ]
+            ]
+        },
+>>>>>>> e5fdeb742731fe6b8d1d43278673c7637ec2ba80
         {
             "id": "Biologi",
             "databaser": [
@@ -90,6 +152,64 @@
                     ["Den gale pose, Stodder", "Malk de Kojn, Rocstar"],
                     ["Beyoncé, If I were a man", "Nik og Jay, Boing", "Taylor Swift, You belong with me"],
                     ["N.F.S. Grundtvig, Danmarks trøst", "St. St. Blicher, Kjær est du Fødeland", "H.C. Andersen, I Danmark er jeg født"]
+                ]
+            ]
+        }, {
+            "id": "Fysik",
+            "databaser": [
+                ["", "videnskab.dk"],
+                ["", "ing.dk"],
+                ["", "da.wikipedia.org"]
+            ],
+            "emner": [
+                "Lys",
+                "Mekanik",
+                "Kvantefysik",
+                "Energi",
+                "Elektriske og magnetiske felter"
+            ],
+            "underemner": [
+                ["Reflektion og brydning"],
+                [
+                    "Bevægelser i én og to dimensioner og jævn cirkelbevægelse",
+                    "Kraftbegrebet, Newtons love, tryk, gnidning og luftmodstand",
+                    "Gravitationsloven og bevægelse om et centrallegeme",
+                    "Mekanisk energi, gravitationsfeltet fra et centrallegeme"
+                ],
+                [
+                    "Fotoners energi, atomare systemers emission og absorption af stråling, spektre",
+                    "Radioaktivitet, henfaldstyper, aktivitet og henfaldsloven"
+                ],
+                [
+                    ["Indre energi og energiforhold ved temperatur- og faseændringer"],
+                    ["Ækvivalensen mellem masse og energi, Q-værdi ved kernereaktioner"],
+                    ["Arbejde, energi, energiomsætning, effekt og nyttevirkning"]
+                ],
+                [
+                    ["ladede partiklers bevægelse i homogene elektriske og magnetiske felter"]
+                ]
+            ],
+            "sso_emner": [
+                [
+                    ["Fysik i regnbuen", "Lysleder"]
+                ],
+                [
+                    ["Kraftpåvirkning af køretøjer i bevægelse"],
+                    ["Raketter"],
+                    ["Tidevandskafter: Ebbe og flod, Roche grænsen"],
+                    ["Meteor- og kometnedslag"]
+                ],
+                [
+                    ["Laseren"],
+                    ["Kulstof 14-datering"]
+                ],
+                [
+                    ["Køleskab og varmepumpe"],
+                    ["Solen"],
+                    ["Dampmaskinen og forbrændingsmotoren"]
+                ],
+                [
+                    ["Partikelaccelerator"]
                 ]
             ]
         }, {
