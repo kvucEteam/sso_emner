@@ -13,8 +13,8 @@ $(document).ready(function() {
 
     $(".btn-fag").click(clicked_fag); //
 
-    $('#instruction').html(instruction("Klik på et fag få inspiration til emner til din SSO"));
-    $('#explanation').html(explanation("Hvert fag har overordnede emner, underemner og herunder sso emner. Når du klikker på et sso emner, får du mulighed for at søge på emnet både på bibliotek.dk og en google søgning på udvalget databaser til det pågældende fag."));
+    $('#instruction').html(instruction("Klik dig i gennem emner, underemner og udvalgte SSO-emner"));
+    $('#explanation').html(explanation("Start med at vælge et fag og få inspiration til emner til din SSO. Du kan søge på både bibliotek.dk og google, når du har indsnævret din søgning."));
 
 
 

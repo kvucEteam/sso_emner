@@ -1,8 +1,5 @@
 {
     "fag": [
-<<<<<<< HEAD
-
-=======
         {
             "id": "Fysik",
             "databaser": [
@@ -62,7 +59,6 @@
                 ]
             ]
         },
->>>>>>> e5fdeb742731fe6b8d1d43278673c7637ec2ba80
         {
             "id": "Biologi",
             "databaser": [
