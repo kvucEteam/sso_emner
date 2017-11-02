@@ -1,65 +1,5 @@
 {
-    "fag": [
-        {
-            "id": "Fysik",
-            "databaser": [
-                ["", "videnskab.dk"],
-                ["", "ing.dk"],
-                ["", "da.wikipedia.org"]
-            ],
-            "emner": [
-                "Lys",
-                "Mekanik",
-                "Kvantefysik",
-                "Energi",
-                "Elektriske og magnetiske felter"
-            ],
-            "underemner": [
-                ["Reflektion og brydning"],
-                [   
-                    "Bevægelser i én og to dimensioner og jævn cirkelbevægelse", 
-                    "Kraftbegrebet, Newtons love, tryk, gnidning og luftmodstand", 
-                    "Gravitationsloven og bevægelse om et centrallegeme", 
-                    "Mekanisk energi, gravitationsfeltet fra et centrallegeme"
-                ],
-                [
-                    "Fotoners energi, atomare systemers emission og absorption af stråling", 
-                    "Radioaktivitet, henfaldstyper, aktivitet og henfaldsloven"
-                ],
-                [
-                    ["Indre energi og energiforhold ved temperatur- og faseændringer"],
-                    ["Ækvivalensen mellem masse og energi, Q-værdi ved kernereaktioner"],
-                    ["Arbejde, energi, energiomsætning, effekt og nyttevirkning"]
-                ],
-                [
-                    ["ladede partiklers bevægelse i homogene elektriske og magnetiske felter"]
-                ]
-            ],
-            "sso_emner": [
-                [
-                    ["Fysik i regnbuen", "Lysleder"]
-                ],
-                [
-                    ["Kraftpåvirkning af køretøjer i bevægelse", "Roller coaster"],
-                    ["Raketter"],
-                    ["Tidevandskæfter: Ebbe og flod", "Tidevandskæfter: Roche grænsen"],
-                    ["Meteor- og kometnedslag"]
-                ],
-                [
-                    ["Laseren"],
-                    ["Kulstof 14-datering"]
-                ],
-                [
-                    ["Køleskabet", "Varmepumpen"],
-                    ["Solen"],
-                    ["Dampmaskinen", "Forbrændingsmotoren"]
-                ],
-                [
-                    ["Partikelaccelerator"]
-                ]
-            ]
-        },
-        {
+    "fag": [{
             "id": "Biologi",
             "databaser": [
                 ["Danmarkshistorien", "sundhed.dk"],
@@ -115,7 +55,8 @@
             "databaser": [
                 ["Forfatterweb", "forfatterweb.dk/"],
                 ["Litteratursiden", "www.litteratursiden.dk/"],
-                ["Danmarkshistorien", "www.danmarkshistorien.dk/"]
+                ["Danmarkshistorien", "www.danmarkshistorien.dk/"],
+                ["Danmarkshistorien", "www.imdb.com/"]
             ],
             "emner": [
                 "Litteratur",
@@ -173,7 +114,7 @@
                     "Mekanisk energi, gravitationsfeltet fra et centrallegeme"
                 ],
                 [
-                    "Fotoners energi, atomare systemers emission og absorption af stråling, spektre",
+                    "Fotoners energi, atomare systemers emission og absorption af stråling",
                     "Radioaktivitet, henfaldstyper, aktivitet og henfaldsloven"
                 ],
                 [
@@ -190,9 +131,9 @@
                     ["Fysik i regnbuen", "Lysleder"]
                 ],
                 [
-                    ["Kraftpåvirkning af køretøjer i bevægelse"],
+                    ["Kraftpåvirkning af køretøjer i bevægelse", "Roller coaster"],
                     ["Raketter"],
-                    ["Tidevandskafter: Ebbe og flod, Roche grænsen"],
+                    ["Tidevandskæfter: Ebbe og flod", "Tidevandskæfter: Roche grænsen"],
                     ["Meteor- og kometnedslag"]
                 ],
                 [
@@ -200,15 +141,15 @@
                     ["Kulstof 14-datering"]
                 ],
                 [
-                    ["Køleskab og varmepumpe"],
+                    ["Køleskabet", "Varmepumpen"],
                     ["Solen"],
-                    ["Dampmaskinen og forbrændingsmotoren"]
+                    ["Dampmaskinen", "Forbrændingsmotoren"]
                 ],
                 [
                     ["Partikelaccelerator"]
                 ]
             ]
-        }, {
+        },  {
             "id": "Historie",
             "databaser": [
                 ["His2rie", "his2rie.dk/"],
@@ -239,7 +180,10 @@
         }, {
             "id": "Kemi",
             "databaser": [
-                ["His2rie", "google.dk/"]
+                ["", "videnskab.dk"],
+                ["", "ing.dk"],
+                ["", "da.wikipedia.org"],
+                ["", "kemienidinhverdag.dk"]
             ],
             "emner": ["Organisk kemi", "Uorganisk kemi"],
             "underemner": [
@@ -264,6 +208,10 @@
         }, {
             "id": "Mediefag",
             "databaser": [
+                ["Danmarkshistorien", "filmcentralen.dk"],
+                ["Danmarkshistorien", "emu.dk"],
+                ["Danmarkshistorien", "imdb.com"],
+                ["Danmarkshistorien", "filmanalysis.yctl.org"],
                 ["Danmarkshistorien", "filmcentralen.dk"]
             ],
             "emner": [
@@ -286,7 +234,10 @@
         }, {
             "id": "Religion",
             "databaser": [
-                ["Danmarkshistorien", "filmcentralen.dk"]
+                ["Danmarkshistorien", "religion.dk"],
+                ["Danmarkshistorien", "emu.dk"],
+                ["Danmarkshistorien", "http://www.folkekirken.dk/"],
+                ["Danmarkshistorien", "worldreligiondatabase.org/"]
             ],
             "emner": [
                 "Helligsteder",

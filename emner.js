@@ -3,20 +3,16 @@ var valgt_emne;
 var underemne;
 var sso_emne;
 
+var h3_top_position;
 
-
-
+var active_state = 0;
 
 $(document).ready(function() {
 
     init();
-
     $(".btn-fag").click(clicked_fag); //
-
-    $('#instruction').html(instruction("Klik dig i gennem emner, underemner og udvalgte SSO-emner"));
-    $('#explanation').html(explanation("Start med at vælge et fag og få inspiration til emner til din SSO. Du kan søge på både bibliotek.dk og google, når du har indsnævret din søgning."));
-
-
+    $('#instruction').html(instruction("Få inspiration til et godt SSO-emne ved at klikke dig igennem emner, underemner og udvalgte SSO-emner"));
+    $('#explanation').html(explanation("Start med at vælge et fag og få inspiration til emner til din SSO. Du kan søge på både bibliotek.dk og udvalgte databaser, når du har indsnævret dit emnevalg."));
 
 });
 
@@ -27,22 +23,33 @@ function init() {
     for (var i = 0; i < jsonData.fag.length; i++) {
         HTML += "<button type='button' class='btn btn-default btn-fag'>" + jsonData.fag[i].id + "</button>";
     }
+
     $(".fag_content").html(HTML);
 
-    //$(".valg_container").css("opacity", ".6");
-    //$(".valg_container").eq(0).css("opacity", "1");
+    reposContent(0);
 
+}
+
+
+function reposContent(indeks) {
+    if (indeks != 4) {
+        h3_top_position = $(".valg_container").eq(indeks).position().top;
+    }
+    console.log("h3_top_position: " + h3_top_position);
+
+    $(".img_container").animate({
+        top: h3_top_position
+    }, 300, function() {
+        $(".bullseye_pic").fadeOut(0, function() {
+            $(".bullseye_pic").attr("src", "img/bullseye" + indeks + ".svg").fadeIn(0); //.fadeIn(50);
+        });
+    });
 }
 
 
 
 function clicked_fag() {
     var indeks = $(this).index();
-    valgt_fag = indeks;
-
-
-    //$(".btn-fag").removeClass("btn-primary").addClass("btn-default").css("opacity", ".5");
-    //$(this).addClass("btn-primary").removeClass("btn-default").css("opacity", "1");
 
     toggleClasses(".btn-fag", indeks);
 
@@ -50,47 +57,30 @@ function clicked_fag() {
     $(".sso_emne_content").html("");
     //activateClass($(this), indeks);
 
-
     var HTML = "<div class='button_container'>";
 
     for (var i = 0; i < jsonData.fag[indeks].emner.length; i++) {
         HTML += "<button type='button' class='btn btn-default btn-emne'>" + jsonData.fag[indeks].emner[i] + "</button>";
-
     }
-
-
 
     $(".emne_content").html(HTML + "</div><div class='col-xs-4'></div>"); //<img class='img-responsive bullseye' src='img/bullseye1.svg'>");
     $(".emne_content").slideUp(0).slideDown(300);
-    //$(".emne_content").slideUp(0);
-    //$(".emne_content").slideDown(500);
-
-    $(".bullseye_pic").fadeOut(10, function() {
-        $(".bullseye_pic").attr("src", "img/bullseye2.svg").fadeIn(50);
-    });
-    //$(".bullseye_pic"). 
 
 
+    reposContent(1);
+    valgt_fag = indeks;
 
 
     $(".btn-emne").click(clicked_emne); //() {
-
     $(".btn-emne").each(function() {
         var indeks = $(this).index();
-
         $(this).fadeOut(100).delay(indeks * 100).fadeIn(100);
     })
-
-       $(".bullseye_pic").fadeOut(10, function() {
-        $(".bullseye_pic").attr("src", "img/bullseye1.svg").fadeIn(50);
-    });
-
 }
+
 
 function clicked_emne() {
     var indeks = $(this).index();
-
-    valgt_emne = indeks;
 
     toggleClasses(".btn-emne", indeks);
 
@@ -122,22 +112,13 @@ function clicked_emne() {
         $(this).fadeOut(0).delay(indeks * 100).fadeIn(100);
     })
 
-    
-    $(".bullseye_pic").fadeOut(10, function() {
-        $(".bullseye_pic").attr("src", "img/bullseye2.svg").fadeIn(50);
-    });
+
+    reposContent(2);
+    valgt_emne = indeks;
+
 }
 
 function clicked_underemne() {
-
-    var wiki;
-    var wiki_url = "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&rvsection=0&titles=pizza";
-
-    $.getJSON(wiki_url,
-        function(data) {
-            wiki = data;
-            // or use your data here by calling yourFunction(data);
-        });
 
     var indeks = $(this).index();
 
@@ -149,7 +130,7 @@ function clicked_underemne() {
 
     for (var i = 0; i < jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks].length; i++) {
         console.log("i: " + i);
-        HTML += "<div class='btn-ssoemne col-xs-8'>" + jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks][i] + "</div><div class='search_container col-xs-4'><button class='btn btn-sm btn-info btn-bib'>Søg på bibliotek.dk</button><button class='btn btn-sm btn-info btn-google'>Søg på google</button></div>";
+        HTML += "<div class='btn-ssoemne col-xs-8'>" + jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks][i] + "</div><div class='search_container col-xs-4'><button class='btn btn-sm btn-info btn-bib'>Søg på bibliotek.dk</button><button class='btn btn-sm btn-info btn-google'>Søg i udvalgte databaser</button></div>";
     }
 
     $(".sso_emne_content").html(HTML); //+ "</div><div class='col-xs-4'></div>"); //<img class='img-responsive bullseye' src='img/bullseye3.svg'>");
@@ -179,9 +160,12 @@ function clicked_underemne() {
 
         $(this).fadeOut(0).delay(indeks * 100).fadeIn(100);
     })
-       $(".bullseye_pic").fadeOut(10, function() {
-        $(".bullseye_pic").attr("src", "img/bullseye3.svg").fadeIn(50);
-    });
+
+
+
+    reposContent(3);
+    underemne = indeks;
+
 }
 
 function clicked_ssoemne() {
@@ -195,9 +179,12 @@ function clicked_ssoemne() {
     $(".btn-bib").eq(indeks).fadeIn(200);
     $(".btn-google").eq(indeks).fadeIn(200);
 
-   $(".bullseye_pic").fadeOut(10, function() {
-        $(".bullseye_pic").attr("src", "img/bullseye4.svg").fadeIn(50);
-    });
+
+
+
+    reposContent(4);
+    sso_emne = indeks;
+
 
 
 }
