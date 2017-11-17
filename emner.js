@@ -130,7 +130,7 @@ function clicked_underemne() {
 
     for (var i = 0; i < jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks].length; i++) {
         console.log("i: " + i);
-        HTML += "<div class='btn-ssoemne col-xs-8'>" + jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks][i] + "</div><div class='search_container col-xs-4'><button class='btn btn-sm btn-info btn-bib'>Søg på bibliotek.dk</button><button class='btn btn-sm btn-info btn-google'>Søg i udvalgte databaser</button></div>";
+        HTML += "<div class='btn-ssoemne col-xs-8'>" + jsonData.fag[valgt_fag].sso_emner[valgt_emne][indeks][i].replace("#db_noshow#", "") + "</div><div class='search_container col-xs-4'><button class='btn btn-sm btn-info btn-bib'>Søg på bibliotek.dk</button><button class='btn btn-sm btn-info btn-google'>Søg i databaser</button></div>";
     }
 
     $(".sso_emne_content").html(HTML); //+ "</div><div class='col-xs-4'></div>"); //<img class='img-responsive bullseye' src='img/bullseye3.svg'>");
@@ -170,14 +170,23 @@ function clicked_underemne() {
 
 function clicked_ssoemne() {
     var indeks = $(this).index(".btn-ssoemne");
-
+    console.log(jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks]);
     $(".btn-bib, .btn-google").hide();
 
     toggleClasses(".btn-ssoemne", indeks);
 
+    console.log(jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks].indexOf("#db_noshow#"));
 
-    $(".btn-bib").eq(indeks).fadeIn(200);
     $(".btn-google").eq(indeks).fadeIn(200);
+
+    if (jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks].indexOf("#db_noshow#") > -1) {
+        //alert("ramt");
+    } else {
+        $(".btn-bib").eq(indeks).fadeIn(200);
+    }
+
+
+
 
 
 

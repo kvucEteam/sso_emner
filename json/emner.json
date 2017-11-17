@@ -32,7 +32,7 @@
             "sso_emner": [
                 [
                     ["Kost og motion", "Medicin og operation"],
-                    ["Muskelvæv og kredsløb", "EPO og hæmotokritværdi"],
+                    ["#db_noshow#Muskelvæv og kredsløb", "EPO og hæmatokritværdi"],
                     ["Genetik og DNA"],
                     ["Evolution"]
                 ],
@@ -49,7 +49,8 @@
                     ["Serotonin", "Cortisol"]
 
                 ]
-            ]
+            ],
+            "ro_res": []
         }, {
             "id": "Dansk",
             "databaser": [
@@ -70,25 +71,68 @@
             ],
             "sso_emner": [
                 [
-                    ["Jens Blendstrup, Gud taler ud", "Knud Romer, Den som blinker er bange for døden", "Tomas Espedal, Gå", "Morten Pape, Planen", "Hans Kirk, Fiskerne", "Jan Sonnergaard, Radiator", "Raymond Carver, Hvad vi taler om, når vi taler om kærlighed?", "Charles Bukowski, Alt forefaldne arbejde", "Helle Helle, Rester", "Simon Fruelund, Mælk"],
+                    ["Jens Blendstrup, Gud taler ud", "Knud Romer, Den som blinker er bange for døden", "Tomas Espedal, Gå", "Morten Pape, Planen", "Hans Kirk, Fiskerne", "Jan Sonnergaard, Radiator", "Raymond Carver, Hvad vi taler om, når vi taler om kærlighed?", "Charles Bukowski, Alt forefaldende arbejde", "Helle Helle, Rester", "Simon Fruelund, Mælk"],
                     ["Caspar Eric, Nike", "Asta Olivia Nordenhof, Det nemme og det ensomme", "Mira Gonzales, Jeg vil aldrig blive smuk nok til at gøre os smukke sammen", "Søren Ulrik Thomsen, Farvel til det blå rum", "Søren Ulrik Thomsen, City slang", "Michael Strunge, Livets hastighed"],
-                    ["Henrik Ibsen, Et dukkehjem", "August Strindberg, Frøken Julie", "Adam Oehlenscläger, Alladin"],
-                    ["H.C. Andersen, Fyrtøjet", "Brd. Grimm, Snehvide og Rosenrød"]
+                    ["Henrik Ibsen, Et dukkehjem", "August Strindberg, Frøken Julie", "Adam Oehlenschläger, Aladdin"],
+                    ["H.C. Andersen, Fyrtøjet", "Brødrene Grimm, Snehvide og Rosenrød"]
                 ],
                 [
-                    ["Nyhedsdækning på TV2", "New Journalism, Morten Sabroe", "Åsne Seiestad, En af os", "Hunter S. Thompson, Frygt og lede i Las Vegas", "Selvfremtilling på Instagram"],
-                    ["Christopher Guldbrandsen, Den hemmelige krig"],
-                    ["Spidse albuer, blødende knæ", "Højdeskræk", "Teenland"],
-                    ["Steven Spielberg, Schindlers liste", "Roberto Begnini, Livet er smukt", "Jason Reitman, Thank you for smoking"],
+                    ["Nyhedsdækning på TV2", "New Journalism, Morten Sabroe", "Åsne Seierstad, En af os", "Hunter S. Thompson, Frygt og lede i Las Vegas", "Selvfremstilling på Instagram"],
+                    ["Christoffer Guldbrandsen, Den hemmelige krig"],
+                    ["Spidse albuer, blødende knæ", "Højdeskræk", "#dbNoshow#Teenland"],
+                    ["Steven Spielberg, Schindlers liste", "Roberto Benigni, Livet er smukt", "Jason Reitman, Thank you for smoking"],
                     ["Reklamens historiske udvikling"],
-                    ["Virksomheders branding på facebook", "Politikernes brug af facebook"]
+                    ["#db_noshow#Virksomheders branding på facebook", "Politikernes brug af facebook"]
                 ],
                 [
                     ["Martin Luther King, I have a Dream", "Barack Obama, Yes we can", "Dronningens nytårstaler", "Var Karen Blixen racist?"],
-                    ["Etisk råds kødskat forslag", "Argumentationsanalyse af avisdebat"],
-                    ["Den gale pose, Stodder", "Malk de Kojn, Rocstar"],
-                    ["Beyoncé, If I were a man", "Nik og Jay, Boing", "Taylor Swift, You belong with me"],
+                    ["Etisk råds kødafgift forslag", "#db_noshow#Argumentationsanalyse af avisdebat"],
+                    ["Den gale pose, Stodder", "Malk de Koijn, Rocstar"],
+                    ["Beyoncé, If I were a boy", "Nik og Jay, Boing", "Taylor Swift, You belong with me"],
                     ["N.F.S. Grundtvig, Danmarks trøst", "St. St. Blicher, Kjær est du Fødeland", "H.C. Andersen, I Danmark er jeg født"]
+                ]
+            ]
+        }, {
+            "id": "Engelsk",
+            "databaser": [
+                ["His2rie", "sparknotes.com/"],
+                ["Historienet", "cliffsnotes.com/"],
+                ["videnskab", "spinditty.com/"],
+                ["Danmarkshistorien", "victorianweb.org"],
+                ["Danmarkshistorien", "bachelorandmaster.com/"],
+                ["Danmarkshistorien", "britannica.com"],
+                ["Danmarkshistorien", "bardweb.net"],
+                ["Danmarkshistorien", "bbc.co.uk"],
+                ["Danmarkshistorien", "theguardian.com"],
+                ["Danmarkshistorien", "bl.uk"],
+                ["Danmarkshistorien", "poetryfoundation.org"],
+                ["Danmarkshistorien", "writersinspire.org"],
+                ["Danmarkshistorien", "biography.com"],
+                ["Danmarkshistorien", "imdb.com"]
+
+            ],
+            "emner": ["Litteratur analyse og fortolkning", "Retorisk analyse og sproglig analyse af taler og artikler", "Mediemæssig analyse"],
+            "underemner": [
+                ["USA", "UK/Storbritannien", "Det Britiske Imperium", " Andre engelsktalende lande ", "Forfattere", " Dystopi", "Horror", "Kvindekamp"],
+                ["Politiske taler"],
+                ["Film"]
+            ],
+            "sso_emner": [
+                [
+                    ["Scott Fitzgerald, The Great Gatsby", "Charles Frazier, Cold Mountain", "Harper Lee, To Kill a Mockingbird", "Hip Hop culture", "Kathryn Stockett, The Help"],
+                    ["Charles Dickens, David Copperfield", "The Beatles tekster", "Oscar Wilde, The Importance of Being Earnest", "Pat Barker Regeneration", "Jojo Moyes, Me Before You", "Det engelske sprogs historie"],
+                    ["E.M. Forster, A Passage to India", "Patricia Grace, A Way Of Talking", "Alan Duff, 'Growing up Half Caste"],
+                    ["J.M. Coetzee, Disgrace", "Alan Paton, Cry, the Beloved Country", "Chimamanda Ngozi Adichie, Americanah"],
+                    ["Shakespeare, Macbeth", "Sir Arthur Conan Doyle, Sherlock Holmes: The Hound of the Baskervilles", "Jane Austen, Sense and Sensibility", "Oscar Wilde, The Picture of Dorian Gray", "Ernest Hemingway, The Nick Adams stories", "Brett Easton Ellis, American Psycho", "Robert Louis Stevenson, Dr. Jekyll and Mr. Hyde"],
+                    ["George Orwell, 1984", "Ray Bradbury,  Fahrenheit 451"],
+                    ["Mary Shelley, Frankenstein"],
+                    ["Sylvia Plath, The Bell Jar", "Sue Monk Kidd, The Secret Life of Bees", "Alice Walker, The Color Purple"]
+                ],
+                [
+                    ["Barack Obama,  Inauguration speech", "#db_noshow#Hillary Clinton, Beijing Speech", "Abraham Lincoln, Gettysburg Address", "George Bush, The War on Terror"]
+                ],
+                [
+                    ["Roland Emmerich, The Patriot", "Steven Spielberg, Seven", "Alan Parker, Mississippi Burning", "Denis Villeneuve, Blade Runner 2049"]
                 ]
             ]
         }, {
@@ -123,7 +167,7 @@
                     ["Arbejde, energi, energiomsætning, effekt og nyttevirkning"]
                 ],
                 [
-                    ["ladede partiklers bevægelse i homogene elektriske og magnetiske felter"]
+                    ["Ladede partiklers bevægelse i homogene elektriske og magnetiske felter"]
                 ]
             ],
             "sso_emner": [
@@ -131,9 +175,9 @@
                     ["Fysik i regnbuen", "Lysleder"]
                 ],
                 [
-                    ["Kraftpåvirkning af køretøjer i bevægelse", "Roller coaster"],
+                    ["#db_noshow#Kraftpåvirkning af køretøjer i bevægelse", "Roller coaster"],
                     ["Raketter"],
-                    ["Tidevandskæfter: Ebbe og flod", "Tidevandskæfter: Roche grænsen"],
+                    ["Tidevandskræfter, Ebbe og flod", "Tidevandskræfter, Roche grænsen"],
                     ["Meteor- og kometnedslag"]
                 ],
                 [
@@ -149,7 +193,7 @@
                     ["Partikelaccelerator"]
                 ]
             ]
-        },  {
+        }, {
             "id": "Historie",
             "databaser": [
                 ["His2rie", "his2rie.dk/"],
@@ -158,16 +202,21 @@
                 ["Danmarkshistorien", "www.danmarkshistorien.dk/"]
             ],
             "emner": ["USA",
-                "Det 20. århundrede"
+                "Det 20. århundrede", "Vikingetid til Middelalder", "Kolonialisme og imperialisme", "Antikken", "Mellemøsten", "Danmarks historie"
             ],
             "underemner": [
                 ["Amerikansk udenrigspolitik", "Den Amerikanske Drøm", "Sortes rettigheder"],
-                ["Mellemkrigstiden", "2.verdenskrig", "Den kolde krig", "Ungdomsoprøret"]
+                ["Mellemkrigstiden", "2.verdenskrig", "Den kolde krig", "Ungdomsoprøret"],
+                ["År 600-800", "År 900-1100", "År 1200-1300", "År 1400-1500"],
+                ["Opdagelserne", "Højimperialismen"],
+                ["Romerriget", "Det antikke Grækenland"],
+                ["Israel / Palæstina konflikten", "Iran", "Golfkrigene"],
+                ["Demokratiets indførsel", "Besættelsestiden", "Danmark som kolonimagt"]
             ],
             "sso_emner": [
                 [
                     ["Bush doktrinen", "Vietnamkrigen efter 1963", "Cubakrisen 1962"],
-                    ["Uafhægighedskrigen 1776-1783", "Indvandringen til USA i 1800-tallet"],
+                    ["Uafhængighedskrigen 1776", "#db_noshow#Indvandringen til USA i 1800-tallet"],
                     ["Borgerrettighedsbevægelsen i 1950'erne", "Den amerikanske borgerkrig og slaveriet"]
                 ],
                 [
@@ -175,6 +224,30 @@
                     ["Slaget om Stalingrad", "Samarbejdspolitikken, 1940-1943"],
                     ["Truman doktrinen", "Dansk udenrigspolitik under den kolde krig"],
                     ["Rødstrømpebevægelsen i Danmark"]
+                ],
+                [
+                    ["Ansgar og Willibrord", "Lindisfarne", "J.J.A. Worsaa"],
+                    ["Trosskiftet i Danmark", "Sven Estridsen", "Det store skisma", "Jellingdynastiet"],
+                    ["Det feudale system", "Dagligliv i middelalderen", "Magna carta", "Kirken i middelalderen"],
+                    ["Pesten", "Firenze", "Reformationen", "Naturvidenskab"]
+                ],
+                [
+                    ["Christoffer Columbus", "Den spanske erobring af Syd- og mellemamerika", "Aztekerne og spanierne"],
+                    ["Kapløbet om Afrika", "#db_noshow#Imperialismens menneskesyn", "Kong Leopolds Congo koloni"]
+                ],
+                [
+                    ["Slaveri i Romerriget", "#db_noshow#Julius Cæsar og republikkens undergang", "Romerrigets fald"],
+                    ["Det spartanske samfund", "Demokrati i Athen", "Den peloponnesiske krig"]
+                ],
+                [
+                    ["Zionisme og staten Israel", "Seksdagskrigen", "Staten Israels oprettelse"],
+                    ["#db_noshow#Irans udvikling efter 1945", "Den islamiske revolution 1979"],
+                    ["USAs rolle i Golfkrigen", "Irakkrigen"]
+                ],
+                [
+                    ["#db_noshow#De national-liberales rolle i demokratiets indførsel", "Danmarks grundlov", "Provisorietiden"],
+                    ["Danskere i tysk krigstjeneste", "Retsopgøret efter besættelsen", "Den danske modstandsbevægelse"],
+                    ["Den florissante handel", "Slaveri på de vestindiske øer", "Danmark og trekantshandelen"]
                 ]
             ]
         }, {
@@ -188,21 +261,20 @@
             "emner": ["Organisk kemi", "Uorganisk kemi"],
             "underemner": [
                 ["Medicinalkemi", "Bæredygtig kemi", "Tilsætningsstoffer", "Enzymer", "Plastik (polymerer)", "Koffein"],
-                ["Batterier", "Reaktionshastighed", "Puffer", "Miljøkemi"]
+                ["Puffer", "Miljøkemi"]
             ],
             "sso_emner": [
                 [
-                    ["Syntese af acetylsalicysyre", "Fremstilling af paracetamol", "Fremstilling af lidokain"],
+                    ["#db_noshow#Syntese af acetylsalicylsyre", "#db_noshow#Fremstilling af paracetamol", "#db_noshow#Fremstilling af lidokain"],
                     ["Fremstilling af bioethanol", "Fremstilling af biodiesel"],
-                    ["Ascorbinsyreindhold i fødevarer"],
+                    ["#db_noshow#Ascorbinsyreindhold i fødevarer"],
                     ["Undersøgelse af enzymaktivitet", "Amylase og reaktionstid"],
-                    ["Fremstilling af polystyren", "Identifikation af additionspolymerer", "Fremstilling af bioplast", "Udvinding af koffein"]
+                    ["Fremstilling af polystyren", "#db_noshow#Identifikation af additionspolymerer", "#db_noshow#Fremstilling af bioplast", "#db_noshow#Udvinding af koffein"]
                 ],
                 [
-                    ["Hvilespændingens afhængigihed af ionkoncentration i halvcellerne"],
-                    ["Reaktion mellem persulfationer og iodidioner"],
+                    
                     ["Undersøgelse af puffervirkning", "Fremstilling af puffer"],
-                    ["CO2 ændring og pH i vandmiljøer"]
+                    ["#db_noshow#CO2 ændring og pH i vandmiljøer"]
                 ]
             ]
         }, {
@@ -227,7 +299,7 @@
                     ["Quentin Tarantino, Reservoir Dogs", "Martin Scorsese, The departed"],
                     ["John Carpenter, Halloween", "Wes Craven, Scream"],
                     ["Joss Whedon, The Avengers"],
-                    ["Jack Brooks, Sherlock Holmes - Dressed to kill", "Curtis Hanson, L.A. Confidential"],
+                    ["Roy William Neill, Sherlock Holmes - Dressed to kill", "Curtis Hanson, L.A. Confidential"],
                     ["Morten Korch, Flintesønnerne"]
                 ]
             ]
@@ -250,14 +322,14 @@
             ],
             "sso_emner": [
                 [
-                    ["Kirkers arkitektur og funktion", "Synagogers arkitektur og funktion", "Moskeens arkitektur og funktion"],
-                    ["Jerusalem", "Rom", "Mekka", "Pilgrimssteder"],
+                    ["Kirkers arkitektur og funktion", "#db_noshow#Synagogers arkitektur og funktion", "#db_noshow#Moskeens arkitektur og funktion"],
+                    ["Jerusalem", "Rom", "Mekka", "#db_noshow#Pilgrimssteder"],
                     ["Ganges", "Hellige kilder"]
                 ],
                 [
-                    ["Dåb", "Optagelsesritualer", "Navngivningsceremoni"],
-                    ["Konfimation og bar mitzvah", "Totemdyr", "Førstefangst ritual"],
-                    ["Konversion", "Ægteskab", "Optagelsesritualer for munke og nonner"],
+                    ["Dåb", "Optagelsesritualer", "Navngivningsceremonier"],
+                    ["#db_noshow#Konfimation og bar mitzvah", "Totemdyr", "#db_noshow#Førstefangst ritual"],
+                    ["Konversion", "Ægteskab", "#db_noshow#Optagelsesritualer for munke og nonner"],
                     ["Begravelse"]
 
                 ]
@@ -288,37 +360,37 @@
             ],
             "sso_emner": [
                 [
-                    ["Fra velfærdsstat til konkurrencestat", "Borgerløn", "Forskellige velfærdsmodeller", "Den danske velfærdsstat i krise", "Den 4. industrielle revolution", "Disruption og velfærdsstaten"],
-                    ["Strukturpolitik og skattereformen", "Den danske model", "Udbudsøkonomi vs. efterspørgselsøkonomi", "Flexicurity"],
+                    ["Fra velfærdsstat til konkurrencestat", "Borgerløn", "Forskellige velfærdsmodeller", "Den danske velfærdsstat i krise", "Den 4. industrielle revolution", "#db_noshow#Disruption og velfærdsstaten"],
+                    ["#db_noshow#Strukturpolitik og skattereformen", "Den danske model", "#db_noshow#Udbudsøkonomi vs. efterspørgselsøkonomi", "Flexicurity"],
                     ["Working poor i Danmark", "Ulighed i samfundet"],
                     ["Finanskrisen og politiske indgreb", "Økonomiske bobler"],
                     ["Bæredygtighed og vækst", "Strukturel arbejdsløshed"]
                 ],
                 [
-                    ["Regeringsgrundlaget 2016", "Værdipolitik og integration", "Flygtninge og indvandring", "Retspolitik og bandekonflikt", "Arbejderbevægelsens udfordringer", "Social politik og hjemløshed"],
+                    ["Regeringsgrundlaget 2016", "Værdipolitik og integration", "Flygtninge og indvandring", "#db_noshow#Retspolitik og bandekonflikt", "Arbejderbevægelsens udfordringer", "Social politik og hjemløshed"],
                     ["Er ideologierne døde?", "Populisme", "Nationalisme i Europa"],
                     ["Obamacare", "Bernie Sanders Amerikanske socialisme", "Trumps valgsejr", "Den amerikanske drøm og social ulighed", "Amerikansk udenrigspolitik", "Amerikansk våbenlovgivning"],
-                    ["Kommunalvalget 2017", "Forskellen på landspolitik og kommunalpolitik?", "Det aktive civilsamfund", "Magt i kommunerne?", "Danmarks Regioner"],
+                    ["Kommunalvalget 2017", "#db_noshow#Forskellen på landspolitik og kommunalpolitik?", "Det aktive civilsamfund", "Magt i kommunerne?", "Danmarks Regioner"],
                     ["Cop15 og Cop21", "Grøn omstilling", "Landbrugets magt", "Grøn BNP"],
-                    ["Hvad kommer efter papiraviserne?", "Debatkultur", "Privatisering af DR", "Politisk spin", "Fake news"],
-                    ["Sociale medier og demokrati", "Stemmealder", "Deltagelsesdemokrati", "Facebook og demokrati", "Det postfaktuelle demokrati", "Bobler og den demokratiske udvikling"],
-                    ["Er menskerettigheder universelle?", "Kinas brud på menneskerettighederne", "FN og menneskerettighederne", "Ytringsfrihed og Mohamed-tegningerne", "Religionsfrihed og retten til at bære slør"],
+                    ["#db_noshow#Hvad kommer efter papiraviserne?", "Debatkultur", "Privatisering af DR", "Politisk spin", "Fake news"],
+                    ["Sociale medier og demokrati", "#db_noshow#Stemmealder", "Deltagelsesdemokrati", "Facebook og demokrati", "Det postfaktuelle demokrati", "#db_noshow#Bobler og den demokratiske udvikling"],
+                    ["Er menneskerettigheder universelle?", "Kinas brud på menneskerettigheder", "FN og menneskerettigheder", "Ytringsfrihed og Muhammed-tegningerne", "#db_noshow#IdentitetsdannelseReligionsfrihed og retten til at bære slør"],
                     ["Magtens tredeling", "Mediernes magt", "Embedsmændenes magt"]
                 ],
                 [
-                    ["Sociale medier og identitetsdannelse", "Identitesdannelse i det senmoderne samfund"],
-                    ["Vælgersegmenter", "Forbrugskultur"],
-                    ["Individualisering", "Hartmut Rosas teori", "Den flydende modernitet", "Risikosamfundets påvirkning", "Normer og traditioners forfald", "Modernitetens jernbur"],
+                    ["Sociale medier og identitetsdannelse", "Identitetsdannelse i det senmoderne samfund"],
+                    ["#db_noshow#Vælgersegmenter", "Forbrugskultur"],
+                    ["Individualisering", "Hartmut Rosa", "Den flydende modernitet", "#db_noshow#Risikosamfundets påvirkning", "Modernitetens jernbur"],
                     ["Misbrug", "Social arv og uddannelse", "Anerkendelse - Bourdieu", "Hjemløshed"],
-                    ["Solomødre", "Dating og parfohold", "Nye familieformer"],
-                    ["Maskulinitetsopfattelser", "4. bølge feminismen", "Prostitution", "Sugar dating", "Køn - en biologisk eller socialkonstruktion"],
-                    ["Dansk folkepartis integrationsopfattelser", "Danskhed"],
+                    ["Solomødre", "Dating og parforhold", "Nye familieformer"],
+                    ["Maskulinitet", "4. bølge feminisme", "Prostitution", "Sugardating", "#db_noshow#Køn - en biologisk eller socialkonstruktion"],
+                    ["#db_noshow#Dansk folkepartis integrationsopfattelser", "Danskhed"],
                     ["Radikalisering af unge", "Modkulturer"]
                 ],
                 [
-                    ["Tyskland og Grækenlands gældskrise"],
+                    ["#db_noshow#Tyskland og Grækenlands gældskrise"],
                     ["Populisme", "EU i flere hastigheder", "EUs fremtid", "Brexit"],
-                    ["EU og Nato", "EUs ydre grænser og flygtningepolitikken", "EUs handelspolitik"],
+                    ["EU og Nato", "#db_noshow#EUs ydre grænser og flygtningepolitikken", "EUs handelspolitik"],
                     ["De danske forbehold", "EU og den danske velfærdsstat", "Det indre markeds betydning for Danmark", "Social dumping", "Budgetloven"]
                 ]
             ]

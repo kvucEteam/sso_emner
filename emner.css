@@ -28,7 +28,6 @@
 
 .search_container {
     margin-top: -11px;
-    
 }
 
 .img_container{
@@ -38,4 +37,8 @@
     top: 0px;
     opacity: 0.8;
     z-index: -1;  
+}
+
+.btn-bib{
+    /*margin-bottom: -4px;*/
 }
