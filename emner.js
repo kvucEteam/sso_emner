@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     init();
     $(".btn-fag").click(clicked_fag); //
-    $('#instruction').html(instruction("Få inspiration til et godt SSO-emne ved at klikke dig igennem emner, underemner og udvalgte SSO-emner"));
+    $('#instruction').html(instruction("Få inspiration til et godt SSO-emne ved at klikke dig igennem emner, underemner og udvalgte SSO-emner."));
     $('#explanation').html(explanation("Start med at vælge et fag og få inspiration til emner til din SSO. Du kan søge på både bibliotek.dk og udvalgte databaser, når du har indsnævret dit emnevalg."));
 
 });

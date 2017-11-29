@@ -261,7 +261,7 @@
             "emner": ["Organisk kemi", "Uorganisk kemi"],
             "underemner": [
                 ["Medicinalkemi", "Bæredygtig kemi", "Tilsætningsstoffer", "Enzymer", "Plastik (polymerer)", "Koffein"],
-                ["Puffer", "Miljøkemi"]
+                ["Buffer", "Miljøkemi"]
             ],
             "sso_emner": [
                 [
@@ -273,7 +273,7 @@
                 ],
                 [
                     
-                    ["Undersøgelse af puffervirkning", "Fremstilling af puffer"],
+                    ["#db_noshow#Undersøgelse af buffervirkning", "#db_noshow#Fremstilling af buffer"],
                     ["#db_noshow#CO2 ændring og pH i vandmiljøer"]
                 ]
             ]
