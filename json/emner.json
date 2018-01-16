@@ -272,9 +272,52 @@
                     ["Fremstilling af polystyren", "#db_noshow#Identifikation af additionspolymerer", "#db_noshow#Fremstilling af bioplast", "#db_noshow#Udvinding af koffein"]
                 ],
                 [
-                    
+
                     ["#db_noshow#Undersøgelse af buffervirkning", "#db_noshow#Fremstilling af buffer"],
                     ["#db_noshow#CO2 ændring og pH i vandmiljøer"]
+                ]
+            ]
+        }, {
+            "id": "Matematik",
+            "databaser": [
+                ["Danmarkshistorien", "uvmat.dk/"],
+                ["Danmarkshistorien", "webmatematik.dk"],
+                ["Danmarkshistorien", "mat1.dk/"],
+                ["Danmarkshistorien", "frividen.dk"]
+            ],
+            "emner": [
+                "Funktioner", "Geometri", "Talteori", "Algebra"
+
+            ],
+            "underemner": [
+                ["Differentialregning", "Differentialligninger", "Økonomi", "Komplekse funktioner", "Integralregning"],
+                ["Vektorer", "Det gyldne snit", "Keglesnit", "3D Grafik", "Matematikhistorie"],
+                ["Talrækker", "Komplekse tal", "Matematikhistorie"],
+                ["Ligninger"]
+
+            ],
+            "sso_emner": [
+                [
+                    ["Funktioner af to variabler", "#db_noshow#Differentialregningens historiske udvikling"],
+                    ["Første ordens differentialligninger", "Anden ordens differentialligninger"],
+                    ["Omkostningsoptimering"],
+                    ["Komplekse tal og komplekse funktioner"],
+                    ["Omdrejningslegemer"]
+                ],
+                [
+                    ["Sfærisk geometri", "Rumgeometri"],
+                    ["Konstruktion af det gyldne snit", "Det gyldne snit i kunst og arkitektur"],
+                    ["#db_noshow#Keglesnit: Historisk udvikling", "#db_noshow#Egenskaber for ellipse, hyperbel og parabel"],
+                    ["Perspektivtegning"],
+                    ["Græsk matematik"]
+                ],
+                [
+                    ["#db_noshow#Det gyldne snit og Fibboncci Tal", "Uendelige rækker"],
+                    ["#db_noshow#Komplekse tal og andengradsligningen", "Komplekse tal og komplekse funktioner"],
+                    ["Tallet pi"]
+                ],
+                [
+                    ["#db_noshow#Tredjegradsligninger", "Lineær algebra"]
                 ]
             ]
         }, {
