@@ -396,45 +396,51 @@
                 "EU"
             ],
             "underemner": [
-                ["Velfærdsstaten", "Økonomisk politik", "Ulighed", "Finanskrisen", "Samfundsøkonomiske mål"],
+                ["Velfærdsstaten", "Økonomisk politik", "Ulighed", "Finanskrisen", "Samfundsøkonomiske mål", "Globalisering",  "Bæredygtighed"],
                 ["Aktuel dansk politik", "Ideologier og partier", "Amerikansk politik", "Kommunalpolitik", "Miljøpolitik", "Medier", "Demokrati", "Menneskerettigheder", "Magt"],
-                ["Identitsdannelse", "Livsstile", "Modernitetens konsekvenser", "Social arv", "Familie og kærlighed i det senmoderne", "Køn", "Integration og kultur", "Radikalisering"],
-                ["Gældskrisen", "Integration", "EU og verden", "EU og Danmark"]
+                ["Identitsdannelse", "Livsstile", "Modernitetens konsekvenser", "Social arv", "Familie og kærlighed i det senmoderne", "Køn", "Integration og kultur", "Radikalisering", "Kriminalitet", "Medier"],
+                ["Gældskrisen", "Integration", "EU og verden", "EU og Danmark", "EUs politiske system", "Integration til EUs udfordringer"]
             ],
             "sso_emner": [
                 [
-                    ["Fra velfærdsstat til konkurrencestat", "Borgerløn", "Forskellige velfærdsmodeller", "Den danske velfærdsstat i krise", "Den 4. industrielle revolution", "#db_noshow#Disruption og velfærdsstaten"],
-                    ["#db_noshow#Strukturpolitik og skattereformen", "Den danske model", "#db_noshow#Udbudsøkonomi vs. efterspørgselsøkonomi", "Flexicurity"],
+                    ["Fra velfærdsstat til konkurrencestat", "Borgerløn", "Forskellige velfærdsmodeller", "Den danske velfærdsstat i krise", "Den 4. industrielle revolution", "#db_noshow#Disruption og velfærdsstaten", "Velfærdsstaten og John Rawls","#db_noshow#Ekspertkommissioner og langtidsplanlægning af den Danske velfærdsstat"],
+                    ["#db_noshow#Strukturpolitik og skattereformen", "Den danske model", "#db_noshow#Udbudsøkonomi vs. efterspørgselsøkonomi", "Flexicurity", "Velfærd eller velstand","Konsekvenser af kontanthjælpsloftet"],
                     ["Working poor i Danmark", "Ulighed i samfundet"],
                     ["Finanskrisen og politiske indgreb", "Økonomiske bobler"],
-                    ["Bæredygtighed og vækst", "Strukturel arbejdsløshed"]
+                    ["Bæredygtighed og vækst", "Strukturel arbejdsløshed"], 
+                    ["Globalisering og ulighed", "Hvorfor globalisering"],
+                    ["USAs klimapolitik","FN og bæredygtighed","Dansk landbrugspolitik"]
                 ],
                 [
-                    ["Regeringsgrundlaget 2016", "Værdipolitik og integration", "Flygtninge og indvandring", "#db_noshow#Retspolitik og bandekonflikt", "Arbejderbevægelsens udfordringer", "Social politik og hjemløshed"],
+                    ["Regeringsgrundlaget 2016", "Værdipolitik og integration", "Flygtninge og indvandring", "#db_noshow#Retspolitik og bandekonflikt", "Arbejderbevægelsens udfordringer", "Social politik og hjemløshed", "Fra Venstre til VLAK", "Skattelettelser","DF som støtteparti", "Bandepakke"],
                     ["Er ideologierne døde?", "Populisme", "Nationalisme i Europa"],
                     ["Obamacare", "Bernie Sanders Amerikanske socialisme", "Trumps valgsejr", "Den amerikanske drøm og social ulighed", "Amerikansk udenrigspolitik", "Amerikansk våbenlovgivning"],
-                    ["Kommunalvalget 2017", "#db_noshow#Forskellen på landspolitik og kommunalpolitik?", "Det aktive civilsamfund", "Magt i kommunerne?", "Danmarks Regioner"],
+                    ["Kommunalvalget 2017", "#db_noshow#Forskellen på landspolitik og kommunalpolitik?", "Det aktive civilsamfund", "Magt i kommunerne?", "Danmarks Regioner", "Kvinder i kommunal politik", "#db_noshow#Regionale forskelle i politisk smag"],
                     ["Cop15 og Cop21", "Grøn omstilling", "Landbrugets magt", "Grøn BNP"],
-                    ["#db_noshow#Hvad kommer efter papiraviserne?", "Debatkultur", "Privatisering af DR", "Politisk spin", "Fake news"],
-                    ["Sociale medier og demokrati", "#db_noshow#Stemmealder", "Deltagelsesdemokrati", "Facebook og demokrati", "Det postfaktuelle demokrati", "#db_noshow#Bobler og den demokratiske udvikling"],
+                    ["#db_noshow#Hvad kommer efter papiraviserne?", "Debatkultur", "Privatisering af DR", "Politisk spin", "Fake news", "Politiske diskurser"],
+                    ["Sociale medier og demokrati", "#db_noshow#Stemmealder", "Deltagelsesdemokrati", "Facebook og demokrati", "Det postfaktuelle demokrati", "#db_noshow#Bobler og den demokratiske udvikling", "#db_noshow#Vælgertyper og vælgeradfærd","#db_noshow#Deltagelsesdemokrati og konkurrencedemokrati","#db_noshow#Demokratiforståelser i forskellige lande","Islam og demokrati ","Frihedsrettigheder"],
                     ["Er menneskerettigheder universelle?", "Kinas brud på menneskerettigheder", "FN og menneskerettigheder", "Ytringsfrihed og Muhammed-tegningerne", "#db_noshow#IdentitetsdannelseReligionsfrihed og retten til at bære slør"],
                     ["Magtens tredeling", "Mediernes magt", "Embedsmændenes magt"]
                 ],
                 [
-                    ["Sociale medier og identitetsdannelse", "Identitetsdannelse i det senmoderne samfund"],
+                    ["Sociale medier og identitetsdannelse", "Identitetsdannelse i det senmoderne samfund", "Mediesocialisering"],
                     ["#db_noshow#Vælgersegmenter", "Forbrugskultur"],
                     ["Individualisering", "Hartmut Rosa", "Den flydende modernitet", "#db_noshow#Risikosamfundets påvirkning", "Modernitetens jernbur"],
-                    ["Misbrug", "Social arv og uddannelse", "Anerkendelse - Bourdieu", "Hjemløshed"],
+                    ["Misbrug", "Social arv og uddannelse", "Anerkendelse - Bourdieu", "Hjemløshed", "Fattigdom", "A og B hold og uddannelse"],
                     ["Solomødre", "Dating og parforhold", "Nye familieformer"],
                     ["Maskulinitet", "4. bølge feminisme", "Prostitution", "Sugardating", "#db_noshow#Køn - en biologisk eller socialkonstruktion"],
-                    ["#db_noshow#Dansk folkepartis integrationsopfattelser", "Danskhed"],
-                    ["Radikalisering af unge", "Modkulturer"]
+                    ["#db_noshow#Dansk folkepartis integrationsopfattelser", "Danskhed", "Integration og senmodernitet","Ærkedansker eller perkerdansker"],
+                    ["Radikalisering af unge", "Modkulturer"], 
+                    ["Bandekonflikt"], 
+                    ["Analyse af sociale medier"]
                 ],
                 [
                     ["#db_noshow#Tyskland og Grækenlands gældskrise"],
                     ["Populisme", "EU i flere hastigheder", "EUs fremtid", "Brexit"],
                     ["EU og Nato", "#db_noshow#EUs ydre grænser og flygtningepolitikken", "EUs handelspolitik"],
-                    ["De danske forbehold", "EU og den danske velfærdsstat", "Det indre markeds betydning for Danmark", "Social dumping", "Budgetloven"]
+                    ["De danske forbehold", "EU og den danske velfærdsstat", "Det indre markeds betydning for Danmark", "Social dumping", "Budgetloven"],
+                    ["Demokratisk underskud i EU","Borgerinitiativet", "Menneskerettigheder og EU"],
+                    ["Højrepopulisme i Ungarn ", "Højrepopulisme i Polen","Nationalisme og separatisme i Europa"]
                 ]
             ]
         }
