@@ -146,7 +146,15 @@ function clicked_underemne() {
 
 
     //$(".btn-underemne").click(clicked_underemne);
-    $(".btn-ssoemne").click(clicked_ssoemne);
+
+
+    //$(".btn-ssoemne").click(clicked_ssoemne);
+
+    $(".btn-ssoemne").on('click touchend', function (){
+        var indeks = $(this).index(".btn-ssoemne");
+        //alert(indeks); 
+     clicked_ssoemne(indeks);   
+    }); 
 
 
 
@@ -162,20 +170,49 @@ function clicked_underemne() {
     })
 
 
-
     reposContent(3);
     underemne = indeks;
 
+    /*----------  Motiverende tekst microhint funktionalitet  ----------*/
+
+
+
+    $(".btn-ssoemne").on('mouseover touchstart', function() {
+
+
+        var indeks = $(this).index(".btn-ssoemne");
+        if (jsonData.fag[valgt_fag].introtekst) {
+
+            microhint($(this), "<h4>" + jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks] + "</h4>" + jsonData.fag[valgt_fag].introtekst[valgt_emne][underemne][indeks]);
+        } 
+    });
+
+    $(".btn-ssoemne").mouseout(function() {
+        $(".microhint").hide();
+    })
+
+    /*if (detectmob()){
+        $(".btn-ssoemne").each(function(){
+            $(this).prepend('<span class="phone_info glyphicon glyphicon-question-sign"> </span>'); 
+        })
+
+        $(".phone_info").click(function(){
+            alert("hej mobil!");
+        })
+        
+    }*/
+
 }
 
-function clicked_ssoemne() {
-    var indeks = $(this).index(".btn-ssoemne");
+function clicked_ssoemne(obj_num) {
+    
+    var indeks = obj_num; //.index();
     console.log(jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks]);
     $(".btn-bib, .btn-google").hide();
 
     toggleClasses(".btn-ssoemne", indeks);
 
-    console.log(jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks].indexOf("#db_noshow#"));
+    //console.log(jsonData.fag[valgt_fag].sso_emner[valgt_emne][underemne][indeks].indexOf("#db_noshow#"));
 
     $(".btn-google").eq(indeks).fadeIn(200);
 

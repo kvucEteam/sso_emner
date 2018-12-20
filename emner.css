@@ -42,3 +42,11 @@
 .btn-bib{
     /*margin-bottom: -4px;*/
 }
+
+.microhint{
+    max-width: 50%; 
+}
+
+h4{
+    margin-top: 0px;
+}
